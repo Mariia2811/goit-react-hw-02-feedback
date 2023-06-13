@@ -8,12 +8,13 @@ export class FeedbackForm extends Component {
     };
 
     render() {
+        const { good, neutral, bad } = this.props;
         return (
-        <section>
+        <section >
             <h1>Please, leave Feedback</h1>
             <ul>
                 <li>
-                    <button type="button">Good</button>
+                    <button onClick={e => console.log(e)} type="button">Good</button>
                 </li>
                 <li>
                     <button type="button">Neutral</button>
@@ -21,7 +22,7 @@ export class FeedbackForm extends Component {
                 <li>
                     <button type="button">Bad</button>
                 </li>
-            </ul>
+                </ul>
         </section>
     )
     }
