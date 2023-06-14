@@ -1,0 +1,10 @@
+.feedbackOptions {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.feedbackOptions li {
+    margin-right: 10px;
+}
